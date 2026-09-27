@@ -176,8 +176,8 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.12} className="feature-image">
             <Image
-              src="/images/feature-machined.webp"
-              alt="Precision-machined engineering component on workshop bench"
+              src="/images/feature-cold-forge.webp"
+              alt="1500-ton hydraulic cold forging press at SAAB Engineering manufacturing facility"
               fill
               sizes="(max-width: 960px) 100vw, 50vw"
             />
