@@ -1,0 +1,2 @@
+import type { MetadataRoute } from "next";
+export default function sitemap(): MetadataRoute.Sitemap { return ["", "/about", "/products", "/industries", "/contact", "/privacy-policy"].map((path) => ({ url: `https://www.saabengg.com${path}`, lastModified: new Date() })); }
